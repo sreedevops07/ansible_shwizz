@@ -3,3 +3,8 @@
   tasks:
   - name: ping to the nodes
     ping: 
+---
+- hosts: appserver
+  tasks:
+  - name: ping to the nodes
+    ping:
